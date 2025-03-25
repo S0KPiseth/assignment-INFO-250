@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flexbox Gallery</title>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #fefefe;
+      }
+
+      header {
+        text-align: center;
+      }
+      main {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        column-gap: 5px;
+        row-gap: 50px;
+      }
+      main img {
+        width: 250px;
+        box-shadow: 10px 10px 20px black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Flexbox Gallery</h1>
+    </header>
+    <main>
+      <img src="./bird1.jpg" alt="bird1" />
+      <img src="./bird2.jpg" alt="bird2" />
+      <img src="./bird3.jpg" alt="bird3" />
+      <img src="./bird4.jpg" alt="bird4" />
+      <img src="./bird5.jpg" alt="bird5" />
+      <img src="./bird6.jpg" alt="bird6" />
+    </main>
+  </body>
+</html>
